@@ -39,7 +39,6 @@ $gainsboro:     rgb(218 218 218);
   --color-secondary: #{$secondary};
   --color-secondary-darken-20: #{color.scale($secondary, $lightness: -20%)};
   --color-black: #{$black};
-  --color-black-at-alpha-05: #{color.adjust($black, $alpha: -0.95)};
   --color-white: #{$white};
   --color-font: #{$charcoal};
   --color-border: #{$gainsboro};
@@ -112,7 +111,7 @@ pre {
 }
 
 table {
-  @include sass-mixins.table($stripe-background: var(--color-black-at-alpha-05));
+  @include sass-mixins.table;
 }
 
 form {

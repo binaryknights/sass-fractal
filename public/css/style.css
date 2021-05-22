@@ -933,7 +933,6 @@ sup {
   --color-secondary: #f0f0f0;
   --color-secondary-darken-20: silver;
   --color-black: black;
-  --color-black-at-alpha-05: rgba(0, 0, 0, 0.05);
   --color-white: white;
   --color-font: #3e3e3e;
   --color-border: #dadada;
@@ -1087,10 +1086,6 @@ table td {
 table.table-bordered {
   border: 1px solid var(--color-border);
 }
-table.table-striped > tbody > tr:nth-child(odd) {
-  background: var(--color-black-at-alpha-05);
-}
-
 form {
   margin-bottom: 1.5rem;
 }
